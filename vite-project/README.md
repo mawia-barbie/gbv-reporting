@@ -1,16 +1,26 @@
-# React + Vite
+# Harassment Reporting App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application that allows survivors of gender-based violence (GBV) and sexual harassment to report incidents anonymously and access support resources in one platform.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Features**
 
-## React Compiler
+- Submit anonymous reports of harassment, assault, or discrimination  
+- Attach optional evidence files (images, documents)  
+- Access emergency hotlines and local GBV support resources  
+- Help page with verified contacts for counseling, legal, and medical assistance  
+- Fully responsive UI for mobile and desktop  
+-a quick exit button -redirects to google 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## **Technologies**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, React Router, Axios, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB (Atlas for production / local for development)  
+- **Deployment:** Netlify (frontend), Render/Heroku (backend)
+
+---
+live link -https://sgbvreporting.netlify.app/
