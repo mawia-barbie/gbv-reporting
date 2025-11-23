@@ -20,7 +20,7 @@ function ReportForm() {
     if (evidence) formData.append("evidence", evidence);
 
     try {
-      await axios.post("http://localhost:5000/api/reports", formData,);
+      await axios.post('${process.env.REACT_APP_API_URL}/api/reports', formData,);
       navigate("/success");
     } catch (error) {
       console.log(error);
