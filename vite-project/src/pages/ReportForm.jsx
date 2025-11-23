@@ -20,7 +20,7 @@ function ReportForm() {
     if (evidence) formData.append("evidence", evidence);
 
     try {
-      await axios.post("https://gbv-reporting.onrender.com", formData,);
+      await axios.post("https://gbv-reporting.onrender.com/api/reports", formData,);
       navigate("/success");
     } catch (error) {
       console.log(error);
