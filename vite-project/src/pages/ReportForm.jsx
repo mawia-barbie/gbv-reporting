@@ -20,7 +20,7 @@ function ReportForm() {
     if (evidence) formData.append("evidence", evidence);
 
     try {
-      await axios.post('${process.env.REACT_APP_API_URL}/api/reports', formData,);
+      await axios.post("https://gbv-reporting.onrender.com", formData,);
       navigate("/success");
     } catch (error) {
       console.log(error);
